@@ -13,5 +13,7 @@ def primes(number_of_primes):
                 break
         else:
             list.append(n)
-            n += 1
+        n += 1
+
     return list
+
